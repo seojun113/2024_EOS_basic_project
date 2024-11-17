@@ -20,7 +20,7 @@ class _ToDoItemState extends State<ToDoItem> {
     return ListTile(
       leading: IconButton(
         icon: Icon(
-          isClicked ? Icons.favorite_rounded : Icons.favorite_outline_rounded, // 삼항 연산자 사용
+          isClicked ? Icons.favorite_rounded : Icons.favorite_outline_rounded,
           color: Colors.grey,
         ),
         onPressed: () {
