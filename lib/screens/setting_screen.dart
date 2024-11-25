@@ -21,7 +21,6 @@ class _SettingScreenState extends State<SettingScreen> {
         padding: const EdgeInsets.all(30),
         child: Column(
           children: [
-            // 프로필 사진 영역
             Container(
               width: 140,
               height: 140,
