@@ -8,8 +8,8 @@ class SettingScreen extends StatefulWidget {
 }
 
 class _SettingScreenState extends State<SettingScreen> {
-  String name = "정서준"; // 초기 이름
-  String shortBio = "공부 열심히 하기!"; // 초기 한 줄 소개
+  String name = "정서준";
+  String shortBio = "공부 열심히 하기!";
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class _SettingScreenState extends State<SettingScreen> {
         title: Text("setting page"),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(30), // padding값 사방에 30
+        padding: const EdgeInsets.all(30),
         child: Column(
           children: [
             // 프로필 사진 영역
@@ -112,7 +112,7 @@ class _SettingScreenState extends State<SettingScreen> {
     );
   }
 
-  // 한 줄 소개 수정 Dialog
+
   void _editBio() {
     TextEditingController _bioController = TextEditingController();
     _bioController.text = shortBio;
